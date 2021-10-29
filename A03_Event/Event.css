@@ -1,0 +1,30 @@
+h1{
+    color: crimson;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: rgb(255, 235, 122);
+}
+#div0{
+    border: thin solid black;
+    background-color: rgb(255, 155, 88);
+    position: absolute;
+    height: 40%;
+    width: 40%;
+}
+#div1{
+    border: thin solid black;
+    background-color: rgb(255, 109, 89);
+    position: absolute;
+    height: 40%;
+    width: 40%;
+    margin-left: 50%;
+    
+}
+#span{
+    position: fixed;
+    border: thin solid  black;
+    background-color: cadetblue;
+    text-align: center;
+    padding: 2px;
+}
