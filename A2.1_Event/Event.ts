@@ -1,4 +1,4 @@
-namespace A03_EventInspecor {
+namespace A2_1_EventInspecor {
     window.addEventListener("load", handleLoad);
 
     //handleLoad 

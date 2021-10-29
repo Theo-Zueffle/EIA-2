@@ -1,5 +1,5 @@
-var A03_EventInspecor;
-(function (A03_EventInspecor) {
+var A2_1_EventInspecor;
+(function (A2_1_EventInspecor) {
     window.addEventListener("load", handleLoad);
     //handleLoad 
     function handleLoad(_event) {
@@ -32,5 +32,5 @@ var A03_EventInspecor;
         console.log(_event.currentTarget);
         console.log(_event);
     }
-})(A03_EventInspecor || (A03_EventInspecor = {}));
+})(A2_1_EventInspecor || (A2_1_EventInspecor = {}));
 //# sourceMappingURL=Event.js.map
