@@ -1,0 +1,44 @@
+body {
+    background-color: rgba(247, 255, 175, 0.74);
+    align-items: center;
+}
+span {
+    border-style: dotted;
+    border-color: black;
+    padding: 20px;
+    margin: 20px;
+}
+h1{
+   color: brown; 
+   font-size: 40px;
+}
+
+
+#cardSize {
+    width: 250px;
+  
+}
+#colorPicker {
+    width: 250px;
+   
+}
+#font {
+    width: 250px;
+}
+
+#inputField {
+    width: 250px;
+}
+
+#startButton {
+    position: absolute;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3), 0 17px 50px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    font-size: 24px;
+    background-color: antiquewhite;
+    padding: 28px ;
+}
+
+.hidden {
+    display: none !important;
+  }

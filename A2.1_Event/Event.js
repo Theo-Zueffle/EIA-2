@@ -1,3 +1,4 @@
+"use strict";
 var A2_1_EventInspecor;
 (function (A2_1_EventInspecor) {
     window.addEventListener("load", handleLoad);
@@ -18,10 +19,10 @@ var A2_1_EventInspecor;
     }
     //setInfoBox 
     function setInfoBox(_event) {
-        var mouseX = _event.pageX;
-        var mouseY = _event.pageY;
-        var mousePosition = document.querySelector("span");
-        var mouseTarget = _event.target;
+        let mouseX = _event.pageX;
+        let mouseY = _event.pageY;
+        let mousePosition = document.querySelector("span");
+        let mouseTarget = _event.target;
         mousePosition.innerHTML = "target:" + mouseTarget + "" + "<br>" + "x:" + mouseX + "<br>" + "y:" + mouseY;
         mousePosition.style.left = mouseX + 3 + "px";
         mousePosition.style.top = mouseY + 3 + "px";

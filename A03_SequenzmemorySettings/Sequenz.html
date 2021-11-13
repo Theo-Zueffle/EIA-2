@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Sequenzmemory</title>
+	<link rel="stylesheet" href="Sequenz.css" type="text/css" media="screen" />
+	<script src="Sequenz.js" type="text/javascript" charset="utf-8"></script>
+</head>
+
+<body>
+	<h1>Sequenzmemory</h1>
+	<form>
+		<div id="formFrame">
+
+			<fieldset id="cardSize">
+				<legend> Slider </legend>
+				Choose your card size!
+				<input id="size" type="range" name="Slider" min="10px" max="100px" step="10" value="0" />
+			</fieldset>
+			<br>
+
+			<fieldset id="colorPicker">
+				<legend> Color Picker </legend>
+				Choose your background!
+				<input type="color" name="Color" placeholder="red" id="color1" value="#ff0000">
+				Choose your card color!
+				<input type="color" name="Color" placeholder="green" id="color2" value="#00ff00">
+				Choose your font color!
+				<input type="color" name="Color" placeholder="blue" id="color3" value="#0000ff">
+			</fieldset>
+			<br>
+
+			<fieldset id="font">
+				<select name="Select" id="select">
+					<option value="option1">Arial</option>
+					<option value="option2" selected>Helvetica</option>
+					<option value="option3">Times New Roman</option>
+				</select>
+			</fieldset>
+			<br>
+
+			<fieldset id="inputField">
+				<input id="codeWord" type="text" name="Text" placeholder="write your memory word here" required />
+			</fieldset>
+			<br>
+
+			<fieldset id="timeSelection">
+				<legend>Stepper</legend>
+
+				Select timer in minutes!
+				<input type="number" name="Stepper" step="0.5" min="0.5" max="3" value="0" />
+				<hr />
+	</form>
+
+	<button id="startButton" type="button">Start</button>
+	</div>
+
+</body>
