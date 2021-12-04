@@ -3,7 +3,7 @@ body, html{
     width: 100%;
 }
 body {
-    background-image: url(/A09_Farm/hintergrund.jpg);
+    background-image: url(hintergrund.jpg);
     background-size: cover;
 }
 
@@ -28,7 +28,7 @@ body {
 
 #animals{
     text-align: center;
-    color: white;
+    color: rgb(216, 199, 183);
     font-size: 20px;
     margin: auto;
     width: fit-content;
